@@ -112,11 +112,7 @@ Or download from the official Tesseract repository.
     │ Step 3: OCR on    │
     │ Extracted Images  │
     └─────────┬────────┘
-              │
-    ┌─────────▼────────┐
-    │ Step 4: LLM Clean │
-    │ + Summaries       │
-    └─────────┬────────┘
+    
               │
        ┌──────▼───────┐
        │ Final Output │
