@@ -129,8 +129,7 @@ Or download from the official Tesseract repository.
 
 Text Fusion unifies **PDF parsing**, **image extraction**, **OCR**, and **LLM processing** into a single smart workflow.
 It can handle **any kind of document**, including:
-✔ Scanned PDFs
-✔ Mixed PDFs
-✔ Digital PDFs
-✔ Photos of documents
+Scanned PDFs
+Mixed PDFs
+Digital PDFs
 
