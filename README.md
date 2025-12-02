@@ -121,25 +121,6 @@ Or download from the official Tesseract repository.
 
 ---
 
-# 📦 Folder Structure Example
-
-```
-project_folder/
-│
-├── extracted_text/
-│     └── page1.txt
-│     └── page2.txt
-│
-├── extracted_images/
-│     └── page1_img1.png
-│     └── page2_img1.jpg
-│
-├── model/
-│     └── llm_processing.py
-│
-└── main.py
-```
-
 ---
 
 
