@@ -10,10 +10,15 @@ if uploaded_file:
     temp_path = Path("temp_uploaded_file")
     with open(temp_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
+    st.session_state["temp_path"] = str(temp_path)
+    st.success("File uploaded successfully!")
 if st.button("Extract Text"):
-    with st.spinner("Extracting text..."):
-        result = model.predict(temp_path)
-        extracted_text = result.get("merged_text", "")
-    st.subheader("Extracted Text")
-    st.text_area("Output", extracted_text, height=400)
-
+    if "temp_path" not in st.session_state:
+        st.error("Please upload a file before extracting.")
+    else:
+        with st.spinner("Extracting text..."):
+            file_path = st.session_state["temp_path"]
+            result = model.predict(file_path)
+            extracted_text = result.get("merged_text", "")
+        st.subheader("Extracted Text")
+        st.text_area("Output", extracted_text, height=400)
