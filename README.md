@@ -3,7 +3,7 @@
 
 ##  Overview
 
-VisionText AI is an end-to-end system designed to extract text from **PDF files, scanned documents, and images**, using a combined pipeline of **PDF parsing**, **OCR**, and **Large Language Models (LLMs)** for intelligent cleanup, summarization, and structuring.
+Text-Fusion is an end-to-end system designed to extract text from **PDF files, scanned documents, and images**, using a combined pipeline of **PDF parsing**, **OCR**, and **Large Language Models (LLMs)** for intelligent cleanup, summarization, and structuring.
 
 This system solves real-world problems such as:
 
